@@ -1,5 +1,4 @@
-// let colorPalette = document.querySelector('#color-palette')
-
-// for (index=0; index < 5; index +=1){
-//     console.log(colorPalette);
+// let pixels = document.getElementsByClassName("pixel");
+// for (let i =0; i <=25; i++){
+//     pixels.innerHTML += '<div class="pixel"></div>';
 // }
