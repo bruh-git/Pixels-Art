@@ -8,12 +8,19 @@ const pixel = document.querySelectorAll('.pixel');
 for (let i = 0; i < color.length; i += 1){ 
     color[i].addEventListener('click',selecionaCor);
 }
+for (let i=0; i < pixel.length; i+=1){
+    pixel[i].addEventListener('click', pintaPixel);
+}
 
 function selecionaCor(event){
-    const seleciona = document.querySelector('.selected');
-    seleciona.classList.remove('selected');
+    for(let i =0; i <color.length; i += 1){
+    color[i].classList.remove('selected');
     event.target.classList.add('selected');
 }
-// function mudaBackground() {
-//     document.getElementsByClassName('.color').style.backgroundColor = selecionaCor;
-//     }
+}
+function pintaPixel(event){
+  for(let i = 0; i <pixel.length; i += 1){
+      event.target.style.backgroundColor = 'green';
+  }
+}
+

@@ -25,10 +25,14 @@ h1{
     height:80px;
     border: 1px solid black;
 }
-
-#color-black{
+.selected{
   background-color: black;
 }
+
+#color-black{
+  background-color: black; 
+}
+
 #color-azul{
   background-color: blue;
 }
