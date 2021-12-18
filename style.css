@@ -28,11 +28,9 @@ h1{
 .selected{
   background-color: black;
 }
-
 #color-black{
   background-color: black; 
 }
-
 #color-azul{
   background-color: blue;
 }
@@ -60,3 +58,14 @@ footer p {
     padding: 40px;
     
 } 
+#botao {
+  border: 1px solid black;
+  text-align: center;
+  width: 50px;
+  padding: 9px 50px;
+  border-radius: 8px;
+  position:absolute;
+  top: 600px;
+  left: 850px;
+  background-color: white;
+}
