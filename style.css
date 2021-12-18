@@ -56,16 +56,14 @@ footer {
 footer p {
     text-align: center;
     padding: 40px;
-    
+    color: rgb(37, 37, 37);
 } 
 #botao {
   border: 1px solid black;
   text-align: center;
-  width: 50px;
-  padding: 9px 50px;
+  padding: 9px 40px;
   border-radius: 8px;
-  position:absolute;
-  top: 600px;
-  left: 850px;
   background-color: white;
+  margin-bottom: 50px;
+  display: inline-block;
 }
